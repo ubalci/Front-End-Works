@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.title{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.title2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.title input{
+    border-radius: 6px;
+    padding: 6px;
+    display: flex;
+}
+button{
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#myTable{
+    border: 1px solid;
+    width:100%
+}
+td, th{
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    gap:10px;
+}

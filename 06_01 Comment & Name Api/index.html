@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">       
+        <input type="text" name="comment-id" id="comment-id" placeholder="Yorum ID girin">
+        <input type="text" name="name" id="name-id" placeholder="İsim giriniz">
+        <input type="text" name="comment" id="comment-input" placeholder="Yorum girin">
+        <input type="text" name="movie-id" id="movie-id" placeholder="Film ID">
+        <button id="postButton">Yorum Ekle</button>
+        <button id="deleteButton">Yorum Sil</button>
+        <button id="updateButton">Yorumu Güncelle</button>
+    </div>
+    <div>
+        <table id="myTable">
+            <thead>
+                <th><b>Comment ID</b></th>
+                <th><b>Name</b></th>
+                <th><b>Comment</b></th>
+                <th><b>Movie ID</b></th>
+                <th><b>What to do?</b></th>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+
+
+        </table>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
