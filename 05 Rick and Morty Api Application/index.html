@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main>
+        <div class="topic">
+            <h1>
+                Rick & Morty Characters
+            </h1>
+        </div>
+        <div class="results">
+            <div class="filter-area">
+                <div class="filtertask">
+                    <span class="filter-gender"><b>Gender: </b></span>
+                    <div><input type="checkbox" class="gender" value="male">Male</input></div>
+                    <div><input type="checkbox" class="gender" value="female">Female</input></div>
+                    <div><input type="checkbox" class="gender" value="genderless">Genderless</input></div>
+                    <div><input type="checkbox" class="gender" value="unknown">Unknown</input></div>
+                </div>
+                <div class="filtertask">
+                    <span class="filter-species"><b>Species: </b></span>
+                    <div><input type="checkbox" class="species" value="human">Human</input></div>
+                    <div><input type="checkbox" class="species" value="alien">Alien</input></div>
+                    <div><input type="checkbox" class="species" value="animal">Animal</input></div>
+                    <div><input type="checkbox" class="species" value="humanoid">Humanoid</input></div>
+                    <div><input type="checkbox" class="species" value="poopybutthole">Poopybutthole</input></div>
+                    <div><input type="checkbox" class="species" value="mythological creature">Mythological Creature</input></div>
+                    <div><input type="checkbox" class="species" value="robot">Robot</input></div>
+                    <div><input type="checkbox" class="species" value="disease">Disease</input></div>
+                    <div><input type="checkbox" class="species" value="cronenberg">Cronenberg</input></div>
+                    <div><input type="checkbox" class="species" value="unknown">Unknown</input></div>
+                </div>
+                <div class="filtertask">
+                    <span class="filter-species"><b>Status: </b></span>
+                    <div><input type="checkbox" class="status" value="alive">Alive</input></div>
+                    <div><input type="checkbox" class="status" value="dead">Dead</input></div>
+                    <div><input type="checkbox" class="status" value="unknown">Unknown</input></div>
+                </div>
+                <div class="filtertask btnclass">
+                    <button onclick="controlboxes()" id="beginner"> Filter </button>
+                </div>
+            </div>
+            <div id="character-list">
+
+            </div>
+        </div>
+        <div class="slider">
+            
+
+        </div>
+
+    </main>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
