@@ -1,0 +1,39 @@
+body{
+    background-color: #AAAAAA;
+    margin: 0px; 
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border:30px solid #1E1E1E;
+    
+}
+main{
+    background-color:#EEEEEE ;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;    
+}
+img{
+    border-radius: 50%;
+    padding:20px;
+    width: 100px;
+    height: 100px;   
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+}
+.mail{
+    border-bottom: 1px solid #1E1E1E;
+    padding-bottom: 30px;
+}
+
+
+
+
+
