@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 50px;
+}
+main{
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 38%,
+        #F0F1F6 38%,
+        #F0F1F6 100%
+      );
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+.rounded{
+    background-color:  hsl(180, 66%, 49%);
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+.first-left{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 50px;
+    width: 55%;
+}
+.first-right{
+    width: 45%;
+}
+.shorten{
+    background-color:  hsl(180, 66%, 49%);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 14px 30px;
+    width: 20%;
+}
+input{
+    padding: 14px 30px;
+    width: 80%;
+    border-radius: 10px;
+}
+.second-row{
+    background-image: url(/assets/images/bg-shorten-desktop.svg);
+    background-color:#3A3053 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    margin:30px;
+    gap:20px;
+}
+.third-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px 25%;
+    margin:30px 30px 110px;
+}
+.fourth-row{
+    display: flex;
+    flex-direction: row;
+    gap: 50px; 
+    padding: 0 30px 80px;
+    border-image: radial-gradient( #ffff , hsl(180, 66%, 49%) )10;
+
+}
+.im-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A3053;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%; 
+    position: relative;
+    left: 10px;
+    top: -36px;
+}
+.rectangle{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 0 30px 30px;
+    flex-direction: column;
+}
+.rectangle-1{
+    position: relative;
+    top: -80px;
+}
+.rectangle-2{
+    position: relative;
+    top: -40px;
+}
+h3{
+    margin: 0 0 18px;
+}
+.fifth-row{
+    background-image: url(/assets/images/bg-boost-desktop.svg);
+    background-color: #3A3053;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap:20px
+}
+footer{
+    background-color: #232027;
+    color: white;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 50px 30px 50px;;
+}
+.info-bottom{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+.info-bottom a{
+    color: white;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    height:30px ;
+    gap:20px;
+}
+@media screen and (max-width:720px){
+body{
+    max-width: 720px;
+}
+main{
+    align-items: center;
+    margin: auto;
+}
+.first-row{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.first.right{
+    order:1;
+}
+.first-left{
+    order:2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.second-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    gap:20px;
+}
+.second-row input{
+    padding: 14px 0;
+    width:80%;
+}
+.second-row button{
+    padding: 14px 0;
+    width:80%;
+}
+.third-row{
+    margin:0 0 100px;
+}
+.fourth-row{
+    flex-direction: column;
+}
+footer{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 40px;
+    height: auto;
+}
+.info-bottom{
+    display: flex;
+    flex-direction: column;
+    width:150px;
+    align-items: center;
+}
+}
